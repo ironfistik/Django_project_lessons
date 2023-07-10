@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-project"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Dmitriev <Ironfistik@mail.ru>"]
+readme = "README.md"
+packages = [{include = "django_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
